@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(237,241,244);
+    font-family:  "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", Helvetica, Tahoma, Arial, STXihei,sans-serif;
+}
+#header{
+    background-color: rgb(95,192,206);
+    width:100% ;
+    height: 89px;
+    text-align : center;
+    line-height:89px;
+    color:white;
+    font-size: 33px;
+}
+
+#header .header_0{
+    position:absolute;
+    left:26px;
+    font-size:25px ;
+}
+
+#main .box{
+    height:99px;
+    background-color: white;
+    margin-top:11px ;
+    line-height:99px;
+}
+
+#main .box_0{
+    float:left;
+    text-align: center;
+    width:15%;
+}
+label{
+    display: block;
+    width:100%;
+    height:47px;
+    border-right: 2px solid rgb(225,229,230);
+    margin-top:26px;
+    line-height: 47px;
+}
+#main .num,#main .password{
+    float:right;
+    background-color: white;
+    width:79.8%;
+}
+#main .num input,.password input{
+    font-family:  "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", Helvetica, Tahoma, Arial, STXihei,sans-serif;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size:30px;
+    width:79.8vw;
+    color:black;
+}
+#main .sign{
+    font-family:  "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", Helvetica, Tahoma, Arial, STXihei,sans-serif;
+    margin-top:78px;
+    background-color:rgb(95,192,206) ;
+    height:97px;
+    width: 100vw;
+    line-height: 97px;
+    font-size:33px;
+    border-style:none;
+    color:white;
+}
